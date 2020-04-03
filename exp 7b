@@ -1,0 +1,38 @@
+class Person():
+
+	def __init__(self,name,age,dob,locality):
+		self.name = name
+		self.age = age 
+		self.dob = dob
+		self.locality = locality
+
+n = input('Enter Name of person : ')
+d = input('Enter DateOfBirth of the person : ')
+a = input('Enter Age of person : ')
+loc = input('Enter location : ')
+
+person = Person(n,a,d,loc)
+
+print("\nPerson's details:")
+print('Name: {}'.format(person.name))
+print('Date_Of_Birth: {}'.format(person.dob))
+print('Age: {}'.format(person.age))
+print('Locality: {}'.format(person.locality))
+
+OUTPUT ::
+
+C:\Users\Admin>cd Desktop\devesh
+
+C:\Users\Admin\Desktop\devesh>python Exp_7b.py
+Enter Name of person : Devesh Salke
+Enter DateOfBirth of the person : 03-01-2001
+Enter Age of person : 19
+Enter location : Mumbai
+
+Person's details:
+Name:  Devesh Salke
+Date_Of_Birth: 03-01-2001
+Age: 19
+Locality: Mumbai
+
+C:\Users\Admin\Desktop\devesh>
